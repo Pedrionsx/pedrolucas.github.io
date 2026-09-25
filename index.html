@@ -13,75 +13,133 @@
 </head>
 <body>
 
-    <!-- HEADER -->
-    <header class="container">
-        <img src="Minha Foto.jpg" alt="Pedro Lucas da Silva Rosa" class="profile-img">
+    <header>
+    <a href="#" class="logo">Pedro<span>.dev</span></a>
+    <nav>
+      <ul>
+        <li><a href="#hero">Início</a></li>
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <h1>Pedro Lucas da Silva Rosa</h1>
-        <h2>Programador / Desenvolvedor de Software</h2>
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Olá, eu sou<br><span>Pedro Lucas</span></h1>
+      <p>Desenvolvedor focado em criar soluções web eficientes, sistemas práticos e experiências digitais interativas[cite: 1]. Transformo lógicas complexas em interfaces inteligentes.</p>
+      <div class="hero-buttons">
+        <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+        <a href="https://github.com/Pedrionsx" target="_blank" class="btn btn-outline"><i class="fab fa-github"></i> Meu GitHub</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <!-- DICA: Usei uma imagem provisória baseada nas iniciais. Depois, coloque a URL da foto oficial aqui -->
+      <img src="https://ui-avatars.com/api/?name=Pedro+Lucas&background=0d9488&color=fff&size=512" alt="Pedro Lucas">
+    </div>
+  </section>
 
-        <p class="intro">
-            Desenvolvedor focado em criar soluções eficientes, com interesse em desenvolvimento web,
-            aplicações e sistemas. Sempre em busca de aprendizado e evolução constante.
-        </p>
-    </header>
+  <section id="sobre">
+    <h2 class="section-title">Sobre <span>Mim</span></h2>
+    <div class="about-content">
+      <p>Sou estudante e desenvolvedor de software em início de carreira[cite: 1], apaixonado por tecnologia e focado na criação de aplicações práticas e bem estruturadas.</p>
+      <p>Possuo experiência prática em estruturação web com HTML e CSS, lógicas de manipulação com JavaScript, e a construção de sistemas Backend utilizando Python e o framework Flask[cite: 1].</p>
+      <p>Meu foco atual é o desenvolvimento web full-stack, sempre buscando integrar ferramentas avançadas (como uso de Inteligência Artificial e consumo de APIs externas) para criar projetos de alto valor e usabilidade.</p>
+    </div>
+  </section>
 
-    <!-- SOBRE -->
-    <section class="container">
-        <h3>Sobre mim</h3>
-        <p>
-            Sou estudante e desenvolvedor em início de carreira, com conhecimentos em
-            HTML, CSS, JavaScript e Python. Tenho interesse em atuar como desenvolvedor
-            de software, criando aplicações práticas e bem estruturadas.
-        </p>
-    </section>
+  <section id="habilidades">
+    <h2 class="section-title">Minhas <span>Habilidades</span></h2>
+    <div class="skills-grid">
+      <div class="skill-tag"><i class="fab fa-html5"></i> HTML5</div>
+      <div class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</div>
+      <div class="skill-tag"><i class="fab fa-js"></i> JavaScript</div>
+      <div class="skill-tag"><i class="fab fa-python"></i> Python</div>
+      <div class="skill-tag"><i class="fas fa-server"></i> Flask</div>
+      <div class="skill-tag"><i class="fab fa-git-alt"></i> Git & GitHub</div>
+      <div class="skill-tag"><i class="fas fa-robot"></i> IA Integration</div>
+      <div class="skill-tag"><i class="fas fa-mobile-alt"></i> UX / UI Design</div>
+    </div>
+  </section>
 
-    <!-- HABILIDADES -->
-    <section class="container">
-        <h3>Habilidades</h3>
-
-        <ul class="skills">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Flask</li>
-            <li>Git & GitHub</li>
-        </ul>
-    </section>
-
-    <!-- PROJETOS -->
-    <section class="container">
-        <h3>Projetos</h3>
-
-        <div class="projects">
-            <div class="project-card">
-                <h4>Landing Page</h4>
-                <p>Landing page responsiva criada com HTML, CSS e JavaScript.</p>
-                <a href="#" target="_blank">Em Andamento</a>
-            </div>
-
-            <div class="project-card">
-                <h4>Sistema | Controle de Finanças com IA</h4>
-                <p>Aplicação backend utilizando Flask.</p>
-                <a href="https://pedrionsx.github.io/AssistenteFinanceiroDeNotas/" target="_blank">Visitar</a>
-            </div>
+  <section id="projetos">
+    <h2 class="section-title">Meus <span>Projetos</span></h2>
+    <div class="projects-grid">
+      
+      <!-- O seu novo grande projeto -->
+      <div class="project-card">
+        <div class="project-img">
+          <i class="fas fa-receipt"></i>
         </div>
-    </section>
+        <div class="project-info">
+          <h3>📸 Gasto na Foto</h3>
+          <p>Aplicação web inteligente que utiliza IA para extrair e classificar dados de cupons fiscais automaticamente a partir de imagens. Interface interativa com cálculos dinâmicos.</p>
+          <div class="tech-stack">
+            <span>HTML</span>
+            <span>CSS Grid</span>
+            <span>JavaScript</span>
+            <span>Puter.js (IA)</span>
+          </div>
+          <div class="project-links">
+            <!-- Adicione os links reais aqui depois -->
+            <a href="#" class="link-live"><i class="fas fa-external-link-alt"></i> Deploy</a>
+            <a href="#" class="link-github"><i class="fab fa-github"></i> Repositório</a>
+          </div>
+        </div>
+      </div>
 
-    <!-- CONTATO -->
-    <section class="container">
-        <h3>Contato</h3>
+      <!-- Projeto Backend que estava no PDF -->
+      <div class="project-card">
+        <div class="project-img">
+          <i class="fas fa-chart-pie"></i>
+        </div>
+        <div class="project-info">
+          <h3>Controle de Finanças com IA</h3>
+          <p>Aplicação backend robusta para gerenciamento financeiro, estruturada com Python visando organizar e analisar orçamentos[cite: 1].</p>
+          <div class="tech-stack">
+            <span>Python</span>
+            <span>Flask</span>
+            <span>Backend</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-live"><i class="fas fa-external-link-alt"></i> Visitar</a>
+          </div>
+        </div>
+      </div>
 
-        <p>Email: <strong>pedrolucass1106@gmail.com</strong></p>
-        <p>GitHub: <a href="https://github.com/Pedrionsx" target="_blank">https://github.com/Pedrionsx</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/pedro-lucas-da-silva-rosa-94211a334/" target="_blank">https://www.linkedin.com/in/pedro-lucas</a></p>
-    </section>
+      <!-- Landing Page -->
+      <div class="project-card">
+        <div class="project-img">
+          <i class="fas fa-laptop-code"></i>
+        </div>
+        <div class="project-info">
+          <h3>Landing Page Responsiva</h3>
+          <p>Página promocional desenvolvida do zero com foco na conversão, estruturada para garantir a melhor experiência mobile-first[cite: 1].</p>
+          <div class="tech-stack">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-github"><i class="fab fa-github"></i> Repositório</a>
+          </div>
+        </div>
+      </div>
 
-    <footer>
-        <p>© 2026 - Pedro Lucas da Silva Rosa</p>
-    </footer>
+    </div>
+  </section>
 
-    <script src="/static/scripts/script.js"></script>
+  <footer id="contato">
+    <h2 style="font-family: 'Poppins', sans-serif; margin-bottom: 1rem;">Vamos construir algo juntos?</h2>
+    <p style="color: var(--text-muted); margin-bottom: 2rem;">Estou aberto a oportunidades e networking na área de desenvolvimento web.</p>
+    <div class="social-links">
+      <a href="https://github.com/Pedrionsx" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/pedro-lucas" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:pedrolucass1106@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+    <p style="color: var(--text-muted); font-size: 0.9rem;">&copy; 2026 Pedro Lucas da Silva Rosa. Construído com código limpo e dedicação.</p>
+  </footer>
 </body>
 </html>
